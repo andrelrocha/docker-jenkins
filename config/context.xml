@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><Context>
+    <Resource accessToUnderlyingConnectionAllowed="false" cloudDatabaseKey="" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/Cts45541" password="admin" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:h2:file:~/Cts4554;AUTO_SERVER=TRUE;DATABASE_TO_UPPER=FALSE;ALIAS_COLUMN_NAME=TRUE" username="andre"/>
+    <Profile value="PROD"/>
+    <Profile value="TESTE"/>
+    <Profile value="DEV"/>
+    <Profile value="SUPORTE"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" cloudDatabaseKey="" driverClassName="org.postgresql.Driver" logAbandoned="true" name="jdbc/Cts45541" password="@mudar123" profile="SUPORTE" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:postgresql://0.tcp.sa.ngrok.io:18864/suportetestes?charSet=UTF-8" username="andrerocha"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" cloudDatabaseKey="" driverClassName="org.postgresql.Driver" logAbandoned="true" name="jdbc/teste" password="@mudar123" profile="TESTE" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:postgresql://0.tcp.sa.ngrok.io:18864/suportetestes?charSet=UTF-8" username="andrerocha"/>
+</Context>
